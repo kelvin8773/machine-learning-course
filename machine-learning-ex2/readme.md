@@ -1,6 +1,6 @@
 # Machine Learning (Week Three) Notes
 
-## Classification Problem
+### Classification Problem
 
 Example:
 - Email: Spam/Not Spam ?
@@ -56,10 +56,31 @@ initialTheta = zeros(2,1);
    [optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);
 ```
 
-## [Multiclass Classification: One Vs. All](https://www.coursera.org/learn/machine-learning/supplement/HuE6M/multiclass-classification-one-vs-all)
+### [Multiclass Classification: One Vs. All](https://www.coursera.org/learn/machine-learning/supplement/HuE6M/multiclass-classification-one-vs-all)
 
 >Train a logistic regression classifier hθ(x) for each class￼to predict the probability that y = i.
 >To make a prediction on a new x, pick the class ￼that maximizes hθ(x).
+
+### [The Problem of Overfitting](https://www.coursera.org/learn/machine-learning/supplement/VTe37/the-problem-of-overfitting)
+
+*Overfitting* - too many features to find the right solution.
+
+*** solution ***
+1. Reduce number of features.
+- manually select which features to keep
+- Model selection algorithm
+2. Regularization
+- keep all the features, but reduce the magnitude/values of parameters.
+- Work well when we have a lot of features.
+
+
+#### [Regulization and Cost Function](https://www.coursera.org/learn/machine-learning/supplement/1tJlY/cost-function)
+
+[Regularized Linear Regression](https://www.coursera.org/learn/machine-learning/supplement/pKAsc/regularized-linear-regression)
+
+
+[Regularized Logistic Regression](https://www.coursera.org/learn/machine-learning/supplement/v51eg/regularized-logistic-regression)
+
 
 
 
