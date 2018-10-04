@@ -82,11 +82,64 @@ initialTheta = zeros(2,1);
 [Regularized Logistic Regression](https://www.coursera.org/learn/machine-learning/supplement/v51eg/regularized-logistic-regression)
 
 
+## Assignment
 
+Same as last week's assigment, most of the work is figure out how to conver the formula into *Octave/Matlab* code.
 
+1. Warmup Exercise: Sigmoid Function -
 
+```
+g = 1 ./ (1 + e.^ (-1 * z));
+```
 
+2. Cost function and gradient
 
+```
+J = (1/m) * (-y' * log(sigmoid(X * theta)) - (1 - y)' * log(1-sigmoid(X * theta)));
 
+grad = (1/m) * X'* (sigmoid(X*theta) - y);
+
+```
+
+3. Cost function and gradient with regulation
+```
+
+J = (1/m) * (-y' * log(h) - (1 - y)' * log(1-h) + (lambda/2) * reg_theta' * reg_theta);
+
+grad = (1/m) * ( X' * (h - y) + lambda * reg_theta);
+```
+
+4. Final (ungraded excise - Change the lamda)
+```
+lambda = 0
+Train Accuracy: 86.440678
+Expected accuracy (with lambda = 1): 83.1 (approx)
+```
+"When lamba=0, Accuracy = 86" 
+![lambda = 0](https://github.com/kelvinDevOp/machine-learning-course/blob/master/machine-learning-ex2/b_lamda0.png "lambda=0")
+
+```
+lambda =  1
+Train Accuracy: 83.050847
+Expected accuracy (with lambda = 1): 83.1 (approx)
+```
+"When lamba=1, Accuracy = 83" 
+![lambda = 1](https://github.com/kelvinDevOp/machine-learning-course/blob/master/machine-learning-ex2/b_lamda1.png "lambda=1")
+
+```
+lambda =  10
+Train Accuracy: 74.576271
+Expected accuracy (with lambda = 1): 83.1 (approx)
+```
+"When lamba=10, Accuracy = 74" 
+![lambda = 10](https://github.com/kelvinDevOp/machine-learning-course/blob/master/machine-learning-ex2/b_lamda10.png "lambda=10")
+
+```
+llambda =  100
+Train Accuracy: 61.016949
+Expected accuracy (with lambda = 1): 83.1 (approx)
+```
+"When lamba=100, Accuracy = 61" 
+![lambda = 100](https://github.com/kelvinDevOp/machine-learning-course/blob/master/machine-learning-ex2/b_lamda100.png "lambda=100")
 
 
