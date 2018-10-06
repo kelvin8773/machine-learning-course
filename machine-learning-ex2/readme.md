@@ -1,4 +1,4 @@
-# Machine Learning (Week Three) Notes
+# Machine Learning (Week Three) - Classification & Logistic Regression
 
 ### Classification Problem
 
