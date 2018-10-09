@@ -26,6 +26,7 @@ Neural Network calculate complicate problem while linear regression or logistic 
 
 ## Assignment
 
+Not much to talk about right now, pretty diffcult for me this week, I need to study more and put back some notes here later!
 
 
 
