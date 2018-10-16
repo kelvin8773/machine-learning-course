@@ -1,4 +1,4 @@
-#Week 5 - Neural Networks: Learning (Exercise 4)
+# Week 5 - Neural Networks: Learning (Exercise 4)
 
 ### [Cost Function](https://www.coursera.org/learn/machine-learning/supplement/afqGa/cost-function)
 
@@ -25,7 +25,7 @@ Theta2 = reshape(thetaVector(111:220),10,11)
 Theta3 = reshape(thetaVector(221:231),1,11)
 
 ```
-![Learning Algorithm](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/kdK7ubT2EeajLxLfjQiSjg_d35545b8d6b6940e8577b5a8d75c8657_Screenshot-2016-11-27-15.09.24.png?expiry=1539302400000&hmac=JlwryeSFj7Z1x1H1YWeRxjjfaq_Zz4ZXxpsMmVsDSm8)
+
 
 ### [Random Initialization](https://www.coursera.org/learn/machine-learning/supplement/KMzY7/random-initialization)
 
