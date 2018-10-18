@@ -54,7 +54,7 @@ This way, the degree of the polynomial d has not been trained using the test set
 * Decreasing λ: Fixes high bias
 * Increasing λ: Fixes high variance.
 
-##### Model Complexity Effects:
+**Model Complexity Effects:**
 
 - Lower-order polynomials (low model complexity) have high bias and low variance. In this case, the model fits poorly consistently.
 - Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
