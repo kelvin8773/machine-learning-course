@@ -61,6 +61,23 @@ This way, the degree of the polynomial d has not been trained using the test set
 - In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 
 
+#### Prioritizing what to work on
+
+#### [Error Analysis](https://www.coursera.org/learn/machine-learning/supplement/Z11RP/error-analysis)
+
+#### [Error Metrics for Skewed Classes]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
